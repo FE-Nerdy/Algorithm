@@ -19,6 +19,8 @@ for tc in range(1, T + 1):
         else:
             d = (d + 1) % 4
             x, y = x + dx[d], y + dy[d]
+
+    print(li)
     print(f"#{tc}")
     for row in li:
         print(" ".join(map(str, row)))
